@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Habits() {
   return (
     <View
       style={{
@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Votre application mobile de biohacking personnalisé</Text>
+      <Text>Mes habitudes</Text>
     </View>
   );
 }
