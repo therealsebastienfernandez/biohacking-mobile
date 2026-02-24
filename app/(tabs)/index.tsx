@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { Link } from "expo-router";
+import { Pressable, Text, View } from "react-native";
 
 export default function Today() {
   return (
@@ -10,6 +11,11 @@ export default function Today() {
       }}
     >
       <Text>Pour ce jour-ci</Text>
+      <Link href="/dashboard" asChild>
+        <Pressable>
+          <Text>Votre Dashboard</Text>
+        </Pressable>
+      </Link>
     </View>
   );
 }
